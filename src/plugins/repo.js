@@ -37,7 +37,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
 *_Forks:_* ${forks_count}
 *_Created At:_* ${new Date(created_at).toLocaleDateString()}
 *_Last Updated:_* ${new Date(updated_at).toLocaleDateString()}
-*_Owner:_* ɪᴍᴀʟᴋᴀ-ʜᴀɴꜱᴀᴍᴀʟ
+*_Owner:_* DILISHA-GIMSHAN
     `;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
@@ -52,12 +52,12 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ',
+              text: '© Queen_Azura-MD',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
                 image: {
-                  url: 'https://telegra.ph/file/44826e95f6e863548e408.jpg',
+                  url: 'https://telegra.ph/file/cad7038fe82e47f79c609.jpg',
                 },
               }, { upload: Matrix.waUploadToServer })),
               title: '',
