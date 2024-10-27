@@ -32,7 +32,7 @@ _________________________________________
 *📆 ${days} Day(s)*
 *🕰️ ${hours} Hour(s)*
 *⏳ ${minutes} Minute(s)*
-*⏲️ ${seconds} Second(s)*
+*🕝 ${seconds} Second(s)*
 _________________________________________
 `;
     
@@ -65,7 +65,7 @@ _________________________________________
               text: uptimeMessage
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ"
+              text: "© QUEEN_AZURA-MD"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({ image: buffer }, { upload: Matrix.waUploadToServer })),
